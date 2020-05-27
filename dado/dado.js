@@ -20,6 +20,12 @@ switch(sorteio){
     break;
     case 5:
     document.getElementById("face").src = "_imagens/face5.png"
+    break;
     case 6:
     document.getElementById("face").src = "_imagens/face6.png"
+    break;
+    default:
+       alert("Jogue novamente!")
+        //caso contrário
+        break;
 }
